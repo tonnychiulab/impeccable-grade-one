@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --background: #e7e1d4;
+  --foreground: #1c1915;
+  --card: #fbf7f1;
+  --muted: #3f3a33;
+  --line: #d4ccbe;
+  --reserved: #1a5c42;
+  --reserved-ink: #f4faf6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-reserved: var(--reserved);
+  --color-reserved-ink: var(--reserved-ink);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei", sans-serif;
+}
